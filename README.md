@@ -1,8 +1,8 @@
-#Starter Kit for [Building Applications in React and Redux in ES6](http://www.pluralsight.com/author/cory-house) on Pluralsight
+#Starter Kit for [Building Applications in React and Redux in ES6]
 
 ## Get Started
 1. **Install [Node 6](https://nodejs.org)**. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm) or [nvm-windows](https://github.com/coreybutler/nvm-windows)
-2. **Clone this repository.** - `git clone https://github.com/coryhouse/pluralsight-redux-starter.git` or [download the zip](https://github.com/coryhouse/pluralsight-redux-starter/archive/master.zip)
+2. **Clone this repository.** - `git clone https://github.com/Himadri1975/react-redux-starter.git` or [download the zip](https://github.com/Himadri1975/react-redux-starter/archive/master.zip)
 3. **Make sure you're in the directory you just created.** - `cd pluralsight-redux-starter`
 4. **Install Node Packages.** - `npm install`
 5. **Run the app.** - `npm start -s`
@@ -17,7 +17,7 @@ This will run the automated build process, start up a webserver, and open the ap
 3. Make sure you're running the latest version of Node. Or, use [Node 5.12.0](https://nodejs.org/download/release/v5.12.0/) if you're having issues on Windows. Node 6 has issues on some Windows machines.
 4. Make sure files with names that begin with a dot (.babelrc, .editorconfig, .eslintrc) are copied to the project directory root. This is easy to overlook if you copy this repository manually.
 5. Don't run the project from a symbolic link. It will cause issues with file watches.
-6. Use path.resolve on all path references in both the dev and prod webpack.config. [See this commit](https://github.com/coryhouse/pluralsight-redux-starter/commit/298848d4332d3bec9eb4e23592e710083acaf340) for an example.
+6. Use path.resolve on all path references in both the dev and prod webpack.config. [See this commit](https://github.com/Himadri1975/react-redux-starter/commit/02cbd3df1aa858b4a0d423e02ac2d5ed8742b383) for an example.
 7. Delete any .eslintrc in your user directory and disable any ESLint plugin / custom rules within your editor since these will conflict with the ESLint rules defined in the course.
 8. Nothing above work? Delete your node_modules folder and re-run npm install.
 
